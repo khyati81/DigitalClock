@@ -1,6 +1,3 @@
-
-
-
 function update() {
     //Get todays date
     let today = new Date();

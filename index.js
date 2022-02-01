@@ -30,7 +30,7 @@ function update() {
     hour = (hour == 0) ? 12 : hour;
     
     //Assign AM or PM according to time
-    let timeOfDay = (hour > 12) ? "PM" : "AM";
+    let timeOfDay = (hour > 12) ? "AM" : "PM";
     
 
     //Insert time using dom
